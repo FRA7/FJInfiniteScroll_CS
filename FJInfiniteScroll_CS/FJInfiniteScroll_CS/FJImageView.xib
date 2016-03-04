@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FJImageView" customModule="FJInfiniteScroll_CS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="457"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="457"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UZG-I9-eTQ">
+                        <rect key="frame" x="0.0" y="0.0" width="437" height="457"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UZG-I9-eTQ" secondAttribute="trailing" id="OTt-Hb-nag"/>
+                <constraint firstItem="UZG-I9-eTQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Tdf-75-E7J"/>
+                <constraint firstAttribute="bottom" secondItem="UZG-I9-eTQ" secondAttribute="bottom" id="dGW-cb-ade"/>
+                <constraint firstItem="UZG-I9-eTQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tv2-98-gE8"/>
+            </constraints>
+            <size key="customSize" width="437" height="457"/>
+            <connections>
+                <outlet property="imageView" destination="UZG-I9-eTQ" id="CeT-Ie-NtP"/>
+            </connections>
+            <point key="canvasLocation" x="314.5" y="408.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
